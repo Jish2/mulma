@@ -1,24 +1,18 @@
-# server
+# Server
 
-[![Package Version](https://img.shields.io/hexpm/v/server)](https://hex.pm/packages/server)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/server/)
+To start your Phoenix server:
 
-```sh
-gleam add server@1
-```
-```gleam
-import server
+* Run `mix setup` to install and setup dependencies
+* Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Further documentation can be found at <https://hexdocs.pm/server>.
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Development
+## Learn more
 
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-```
+* Official website: <https://www.phoenixframework.org/>
+* Guides: <https://hexdocs.pm/phoenix/overview.html>
+* Docs: <https://hexdocs.pm/phoenix>
+* Forum: <https://elixirforum.com/c/phoenix-forum>
+* Source: <https://github.com/phoenixframework/phoenix>
