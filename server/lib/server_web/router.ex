@@ -9,6 +9,8 @@ defmodule ServerWeb.Router do
     pipe_through :api
 
     get "/hello", HelloController, :hello
+
+    get "/healthz", HealthController, :check
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
